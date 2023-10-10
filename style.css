@@ -63,6 +63,7 @@ a {
 #container-contact h1 {
     font-size: 70px;
     font-family: light-pixel;
+    text-shadow: 1px 1px 1px darkgray;
 }
 
 #container-about p,
