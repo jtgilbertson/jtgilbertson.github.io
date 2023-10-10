@@ -1,0 +1,189 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* IDs */
+.accent-1 {
+    font-family: pixel;
+    font-size: 50px;
+}
+
+#container {
+    width: 1200px;
+    margin: auto;
+}
+
+#container-scroll {
+    height: 1200px;
+    overflow-y:auto;
+}
+
+#container-profile {
+    margin-top: 150px;
+    width: 1200px;
+    display: flex;
+}
+
+#container-about {
+    width: 1200px;
+    font-family: genome-thin;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    padding: 20px;
+}
+
+#container-contact {
+    margin-top: 300px;
+    width: 1200px;
+    font-family: genome-thin;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    padding: 20px;
+}
+
+#container-contact {
+    margin-top: 400px;
+    margin-bottom: 300px;
+}
+
+#container-about h1,
+#container-contact h1 {
+    font-size: 70px;
+    font-family: light-pixel;
+}
+
+#container-about p,
+#container-contact p {
+    margin-top: 25px;
+}
+
+#container-profile-left {
+    height: 500px;
+    width: 700px;
+    padding: 20px;
+    font-family: genome-thin;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+#container-profile-left h1 {
+    font-size: 70px;
+    font-family: light-pixel;
+    margin-top: 125px;
+    text-shadow: 1px 1px 1px darkgray;
+}
+
+#container-profile-left p {
+    margin-top: 25px;
+}
+
+#container-profile-right {
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    display: flex;
+}
+
+#container-profile-right img {
+    margin: auto;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 7px solid black;
+}
+
+#header {
+    position: fixed;
+    display: flex;
+    margin-left: 18px;
+    z-index:99;
+    background:blanchedalmond;
+    width: 100%;
+}
+
+#header li {
+    list-style-type: none;
+    margin-right: 50px;
+    padding: 10px 0;
+    font-family: pixel;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px darkgray;
+}
+
+#header a {
+    cursor: pointer;
+}
+
+#header a:hover {
+    color: red;
+}
+
+#resume {
+    margin-left: 630px;
+}
+
+#resume:hover {
+    color:red;
+}
+
+#second-link {
+    height: 100px;
+    width: 100px;
+    position:unset;
+    margin-top: 200px;
+}
+
+/* FONTS */
+@font-face {
+    font-family: pixel;
+    src: url(fonts/pixel.ttf);
+}
+
+@font-face {
+    font-family: light-pixel;
+    src: url(fonts/light_pixel-7.ttf);
+}
+
+@font-face {
+    font-family: genome-thin;
+    src: url(fonts/Genome-Thin.otf);
+}
+
+/* Classes */
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+    filter: blue(5px);
+    transform: translateX(-100%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+/* Media Queries */
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
