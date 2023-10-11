@@ -38,6 +38,7 @@ a {
     font-weight: bold;
     line-height: 50px;
     padding: 20px;
+    margin-bottom: 300px;
 }
 
 #container-contact {
@@ -51,19 +52,25 @@ a {
 }
 
 #container-contact {
-    margin-top: 400px;
+    margin-top: 300px;
     margin-bottom: 300px;
 }
 
 #container-about h1,
-#container-contact h1 {
+#container-contact h1,
+#container-projects h1 {
     font-size: 70px;
     font-family: light-pixel;
     text-shadow: 1px 1px 1px darkgray;
 }
 
+#container-projects h1 {
+    margin-bottom: 50px;
+}
+
 #container-about p,
-#container-contact p {
+#container-contact p,
+#container-projects p {
     margin-top: 25px;
 }
 
@@ -103,6 +110,15 @@ a {
     border: 7px solid black;
 }
 
+#container-projects {
+    width: 1200px;
+    font-family: genome-thin;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    padding: 20px;
+}
+
 #header {
     position: fixed;
     display: flex;
@@ -130,7 +146,7 @@ a {
 }
 
 #resume {
-    margin-left: 630px;
+    margin-left: 475px;
 }
 
 #resume:hover {
@@ -138,6 +154,13 @@ a {
 }
 
 #second-link {
+    height: 100px;
+    width: 100px;
+    position:unset;
+    margin-top: 200px;
+}
+
+#third-link {
     height: 100px;
     width: 100px;
     position:unset;
@@ -178,6 +201,36 @@ a {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+
+.column {
+    display: flex;
+}
+
+.row {
+    margin-right: 250px;
+}
+
+.folder-icon {
+    height: 200px;
+}
+
+.folder-label {
+    height: 50px;
+    width: 160px;
+    background-color:rgb(255, 245, 238, 0.6);
+    margin: -130px 0 0 20px;
+    position: absolute;
+    text-align: center;
+    transform: rotate(-15deg);
+    font-size: 17.5px;
+    text-shadow: 1px 1px 1px darkgray;
+}
+
+.folder-label:hover {
+    color: rgb(201, 0, 0);
+    font-size: 17px;
+    text-shadow: 1px 1px 1px darkgray;
 }
 
 /* MEDIA QUERIES */
