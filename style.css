@@ -14,10 +14,6 @@ a {
 }
 
 /* IDs */
-.accent-1 {
-    font-family: pixel;
-    font-size: 50px;
-}
 
 #container {
     width: 1200px;
@@ -164,7 +160,13 @@ a {
     src: url(fonts/Genome-Thin.otf);
 }
 
-/* Classes */
+/* CLASSES */
+.accent-1 {
+    font-family: pixel;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px darkgray;
+}
+
 .hidden {
     opacity: 0;
     transition: all 1s;
@@ -178,13 +180,14 @@ a {
     transform: translateX(0);
 }
 
-/* Media Queries */
+/* MEDIA QUERIES */
 @media(prefers-reduced-motion) {
     .hidden {
         transition: none;
     }
 }
 
+/* ETC. */
 ::-webkit-scrollbar {
     width: 0px;
   }
