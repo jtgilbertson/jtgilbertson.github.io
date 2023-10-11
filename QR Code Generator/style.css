@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, rgb(90, 3, 3), rgb(17, 14, 20));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    top: 10%;
+    width: 400px;
+    padding: 25px 35px;
+    position: absolute;
+    background-color: #dadada;
+    box-shadow: 0px 0px 5px goldenrod;
+}
+
+#container p {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 8px;
+    font-family: varela;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0.5px 0.5px 1px rgb(210, 211, 167);
+}
+
+#container input {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #181a18;
+    outline: 0;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+}
+
+#container button {
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    margin: 20px 0;
+    font-weight: 500;
+    background-color: #c0c0c0;
+    border-width: 1px;
+    font-weight: bold;
+}
+
+#container button:hover {
+    height: 48px;
+    width: 325px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 22px;
+    font-size: 13px;
+    box-shadow: 0px 0px 1px rgb(97, 97, 97);
+}
+
+#imgBox {
+    width: 200px;
+    max-height: 0;
+    overflow: hidden;
+    background: white;
+}
+
+#imgBox img {
+    width: 100%;
+    padding: 2px;
+}
+
+#imgBox.show-img {
+    max-height: 300px;
+    margin: 10px auto;
+    border: 1px solid #181a18;
+}
+
+button {
+    font-family: varela;
+}
+
+.error {
+    animation: shake 0.1s linear 10;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-1.5px);
+    }
+    50% {
+        transform: translateX(0);
+    }
+    75% {
+        transform: translateX(1.5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#container-title {
+    font-size: 30px;
+    margin: 10px 0 30px;
+    text-align: center;
+    line-height: 50px;
+    text-shadow: 0px 0px 2px rgb(180, 180, 135);
+    font-family: varela;
+}
+
+@font-face {
+    font-family: varela;
+    src: url(fonts/varela.ttf);
+}
+
+#qrText {
+    font-family: varela;
+}
+
+#imgBox {
+    box-shadow: 1px 1px 3px gray;
+}

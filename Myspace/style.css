@@ -1,0 +1,412 @@
+/* Main */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cfcfcf;
+    font-family: verdana;
+}
+
+#main-container {
+    height: 1630px;
+    width: 820px;
+    background-color: white;
+    margin: 0 auto 50px;
+}
+
+#left-profile-container {
+    float: left;
+}
+
+#right-profile-container {
+    margin-top: -175px;
+    width: 480px;
+    float: right;
+    margin-left: 
+}
+
+p {
+    margin: 0;
+}
+
+
+
+/* Header */
+#header {
+    height: 80px;
+    width: 820px;
+    background-color: #1D4ED8;  
+}
+
+
+
+/* Navigation */
+#navigation {
+    width: 100%;
+    background-color: #60A5FA;
+    font-size: 11.5px;
+    padding: 4px 0;
+}
+
+#nav-ul {
+    list-style-type: none;
+    display: inline;
+}
+
+#nav-ul li {
+    display: inline;
+    float: left;
+}
+
+li {
+    margin-right: 5px;
+}
+
+#first-link {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.link a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.link a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+/* Info and Pic */
+#info-and-pic-container {
+    height: 210px;
+    width: 300px;
+    margin-left: 10px;
+}
+
+#name {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+#profile-pic {
+    height: 160px;
+    float: left;
+    padding-right: 10px;
+}
+
+#info {
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+
+
+/* Mood Section */
+#mood-container {
+    height: 45px;
+    width: 300px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+#mood-text {
+    line-height: 22px;
+}
+
+.mood-links {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1E40AF;
+}
+
+.mood-links:hover {
+    text-decoration:underline;
+    color: crimson;
+}
+
+.seperator-2 {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* Contact Section */
+#contact-container {
+    border: 2px solid #60A5FA;
+    height: 118px;
+    width: 310px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#contacting-jt {
+    padding: 3px 5px;
+    background:#60a5fa;
+    color: whitesmoke;
+    word-spacing: 3px;
+}
+
+#contact-section {
+    display: flex;
+    font-size: 11px;
+}
+
+.contact-link-div {
+    padding: 5px 5px 5px 32px;
+    width: 500px;
+}
+
+.contact-link-div a {
+    text-decoration: none;
+    color: #1E40AF;
+}
+
+.contact-link-div a:hover {
+    text-decoration:underline;
+    color: crimson;
+}
+
+.contact-icon {
+    position: absolute;
+    margin-left: -20px;
+}
+
+
+
+/* Blurbs Section */
+#blurbs-container {
+    margin-top: -610px;
+    width: 100%;
+}
+
+#jts-blurbs {
+    padding: 3px 5px;
+    background:#F9C56C;
+    color: #EF0707;
+    word-spacing: 1px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.blurb-title {
+    padding: 5px 0px 0px 5px;
+    color: #EF0707;
+    word-spacing: 1px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.blurb-section {
+    padding: 0 0 3px 5px;
+    font-size: 13px;
+    margin-right: 20px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+
+/* Friends Section */
+#friends-container {
+    width: 100%;
+}
+
+#jts-friends {
+    padding: 3px 5px;
+    background:#F9C56C;
+    color: #EF0707;
+    word-spacing: 1px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.friends-title {
+    padding: 5px 0px 0px 5px;
+    word-spacing: 1px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.red-accent {
+    color: #EF0707;
+}
+
+.friend-pic-div {
+    height: 95px;
+    width: 95px;
+    margin: 35px 5px 0px 10px;
+}
+
+.friend-pic-div img {
+    padding-top: 5px;
+}
+
+.friend-pic {
+    height: 95px;
+}
+
+#friend-section {
+    display: flex;
+    font-size: 11px;
+}
+
+.friend-name-div {
+    margin-top: -15px;
+    text-align: center;
+}
+
+.friend-name {
+    margin: 0;
+    color: #676797;
+}
+
+
+
+/* URL Section */
+#url-container {
+    border: 2px solid #60A5FA;
+    height: 45px;
+    width: 310px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#url-title {
+    margin: 5px 0 0 5px;
+}
+
+#url {
+    font-size: 12px;
+    margin: 2px 0 0 5px;
+}
+
+
+
+/* Interests Section */
+#interests-container {
+    border: 2px solid #60A5FA;
+    width: 310px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#jts-interest-title {
+    padding: 3px 5px;
+    background:#60a5fa;
+    color: whitesmoke;
+    word-spacing: 3px;
+}
+
+#interests-section {
+    display: flex;
+    font-size: 11px;
+}
+
+.left-interests-section {
+    padding: 3px;
+    width: 100px;
+    background-color: #BEDAFE;
+    color: #1C4ED9;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+}
+
+.right-interests-section {
+    padding: 3px;
+    width: 100%;
+    background-color: #DBEBFF;
+    font-weight: normal;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    font-size: 12px;
+}
+
+.left-interests-section-2 {
+    padding: 3px;
+    width: 100px;
+    background-color: #BEDAFE;
+    color: #1C4ED9;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.right-interests-section-2 {
+    padding: 3px;
+    width: 100%;
+    background-color: #DBEBFF;
+    font-weight: normal;
+    border: 3px solid white;
+    font-size: 12px;
+}
+
+
+
+/* Contact Section */
+#comments-container {
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+#jts-comments-title {
+    padding: 3px 5px;
+    background:#F9C56C;
+    color: #EF0707;
+    word-spacing: 3px;
+}
+
+#comments-section {
+    display: flex;
+    font-size: 11px;
+}
+
+.left-comments-section {
+    padding: 3px;
+    width: 250px;
+    background-color: #F9C56C;
+    color: #1E40AF;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.right-comments-section {
+    padding: 3px;
+    width: 100%;
+    background-color: #FCDBB8;
+    font-weight: normal;
+    font-size: 12px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+#comment-date {
+    margin-top: 0px;
+}
+
+.comment-pic {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 95px;
+}
+
+#displaying-comments-title {
+    margin: 3px 5px;
+}

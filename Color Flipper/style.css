@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+#container {
+    height: 100vh;
+    margin: 0;
+}
+
+#content {
+    padding-top: 275px;
+    margin: auto;
+    width: fit-content;
+}
+
+#input-color {
+    margin-top: 10px;
+    width: 220px;
+}

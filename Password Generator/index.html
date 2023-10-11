@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/Lock_icon.png">
+</head>
+<body>
+    <div id="main">
+        <div id="password-box">
+            <h1 id="password-box-title">Password <br>Generator</h1>
+            <input type="text" id="final-password">
+            <p id="copy-btn" onclick="copyFunction()">📋
+                <span class="tooltiptext">Copied</span>
+            </p>
+            <button id="generate-password" onclick="generatePassword()">Generate</button>
+        </div>
+        <div id="password-preferences">
+            <div id="password-length">
+                <h4 class="column-title">Length</h4>
+                10 digits<input type="checkbox" id="checkone" class="option"><br>
+                20 digits<input type="checkbox" id="checktwo" class="option"><br>
+                30 digits<input type="checkbox" id="checkthree" class="option"><br>
+            </div>
+            <div id="password-characters">
+                <h4 class="column-title">Preferences</h4>
+                <input type="checkbox" id="checkfour" class="option">Letters<br>
+                <input type="checkbox" id="checkfive" class="option">Numbers<br>
+                <input type="checkbox" id="checksix" class="option">Symbols<br>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

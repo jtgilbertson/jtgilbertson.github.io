@@ -1,0 +1,88 @@
+body {
+    background-color: #181a18;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: pixel;
+    color: rgb(91, 165, 96);
+    margin-top: -50px;
+}
+
+#restart-btn {
+    visibility:hidden;
+}
+
+#game-board {
+    height: 300px;
+    width: 300px;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #181a18;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    margin: 0px;
+    border: solid 2px #181a18;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.O {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 15px solid #181a18;
+    box-sizing: border-box;
+}
+
+.X {
+    height: 90px;
+    width: 90px;
+    position: relative; 
+    transform: rotate(45deg)
+}
+
+.X:before, .X:after {
+    content: "";
+    position: absolute;
+    background-color: #181a18;
+}
+
+.X:before {
+    height: 100%;
+    width: 30%;
+    left: 50%;
+    margin-left: -15%;
+}
+
+.X:after {
+    height: 30%;
+    width: 100%;
+    top: 50%;
+    margin-top: -15%;
+}
+
+#info {
+    margin-top: 50px;
+    color: rgb(91, 165, 96);
+    font-family: pixel;
+}
+
+@font-face {
+    font-family: pixel;
+    src: url(fonts/publicpixel.ttf);
+}
